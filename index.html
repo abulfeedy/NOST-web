@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nostalgic Solana ($NOST)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Inconsolata:wght@200..900&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/icons/favicon.ico"
+      sizes="16x16" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+  </head>
+  <body>
+    <div class="shooting-star-3"></div>
+    <div class="shooting-star-4"></div>
+    <!-- Static Header -->
+    <header class="static-header">
+      <div class="header-content container">
+        <div class="brand">
+          <span>Nostalgic Solana</span>
+        </div>
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#mission">Mission</a></li>
+            <li><a href="#how-to-buy">How to Buy</a></li>
+            <li><a href="#rewards">Rewards</a></li>
+            <li><a href="#tokenomics">Tokenomics</a></li>
+          </ul>
+        </nav>
+        <div class="header-right">
+          <button class="btn primary">Buy Now</button>
+          <div class="social-icons">
+            <a href="#" class="social-btn"
+              ><img src="assets/icons/twitter.svg" alt="Twitter"
+            /></a>
+            <a href="#" class="social-btn"
+              ><img src="assets/icons/telegram.svg" alt="Telegram"
+            /></a>
+            <a href="#" class="social-btn"
+              ><img src="assets/icons/dex.png" alt="Dexscreener"
+            /></a>
+          </div>
+        </div>
+        <button class="hamburger">
+          <img src="assets/icons/hamburger.svg" alt="Menu" />
+        </button>
+      </div>
+      <div class="mobile-menu">
+        <button class="close-menu">
+          <img src="assets/icons/close.svg" alt="Close" />
+        </button>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#mission">Mission</a></li>
+          <li><a href="#how-to-buy">How to Buy</a></li>
+          <li><a href="#rewards">Rewards</a></li>
+          <li><a href="#tokenomics">Tokenomics</a></li>
+        </ul>
+        <div class="mobile-socials">
+          <a href="#" class="social-btn"
+            ><img src="assets/icons/twitter.svg" alt="Twitter"
+          /></a>
+          <a href="#" class="social-btn"
+            ><img src="assets/icons/telegram.svg" alt="Telegram"
+          /></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-flex container">
+        <div class="hero-img">
+          <div class="chart">
+            <img
+              src="assets/images/chart.png"
+              alt="NOST Logo"
+              class="hero-chart" />
+          </div>
+          <img src="assets/images/logo.png" alt="NOST Logo" class="hero-logo" />
+        </div>
+        <div class="hero-text">
+          <h1>Nostalgic Solana ($NOST)</h1>
+          <p>A Throwback to Crypto’s Glory Days with SOL Rewards</p>
+          <div class="ca-box">
+            <span id="contract-address">xxxxx...xxxxxxxxx</span>
+            <button class="copy-btn" onclick="copyContractAddress()">
+              <img src="assets/icons/copy.svg" alt="Copy" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About $NOST</h2>
+        <h4>Let's go back to the old wild days</h4>
+        <div class="about-content">
+          <p>
+            Nostalgic Solana ($NOST) is your ticket back to the wild days of
+            2021, when Solana soared past $260 and meme coins turned wallets
+            into fortunes. We’re more than a token, we’re a movement to reclaim
+            that electric rush. With a 5% tax pumping SOL rewards into your
+            wallet every 5 minutes, $NOST keeps the dream alive. Whether you
+            HODLed through the highs or missed the boat, this is your chance to
+            relive the past and rewrite the future.
+          </p>
+          <p class="about-footer">Hold $NOST to earn SOL rewards every 5min</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Mission Section -->
+    <section id="mission" class="mission">
+      <div class="mission-container container">
+        <div class="mission-text">
+          <h2>Our Mission</h2>
+          <p>
+            Our mission is to reignite the golden era of crypto where Solana and
+            meme coins like Moodeng, Chillguy, and Dogwifhat soared to
+            unimaginable heights. We’re here to resurrect that electric hope,
+            proving meme coins never die and Solana’s fire still burns bright.
+            With $NOST, we keep the meme spirit alive.
+          </p>
+        </div>
+        <div class="mission-image">
+          <img
+            src="assets/images/section-img2.png"
+            alt="Mission Visual"
+            class="mission-img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- How to Buy Section -->
+    <section id="how-to-buy" class="how-to-buy">
+      <div class="container">
+        <h2>How to Buy $NOST</h2>
+        <div class="steps-chain">
+          <div class="step">
+            <span class="step-number">1</span>
+            <p>Set Up a Solana Wallet (Phantom or Solflare)</p>
+          </div>
+          <div class="step-connector"></div>
+          <div class="step">
+            <span class="step-number">2</span>
+            <p>Buy SOL on an Exchange (Binance, Coinbase)</p>
+          </div>
+          <div class="step-connector"></div>
+          <div class="step">
+            <span class="step-number">3</span>
+            <p>Swap SOL for $NOST on Raydium</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rewards Section -->
+    <section id="rewards" class="rewards">
+      <div class="container">
+        <h2>SOL Rewards Every 5 Minutes</h2>
+        <div class="rewards-flex">
+          <div class="rewards-cards">
+            <div class="reward-box">
+              <h3>5% Tax</h3>
+              <p>Every trade contributes.</p>
+            </div>
+            <div class="reward-box">
+              <h3>SOL Conversion</h3>
+              <p>Tax becomes Solana instantly.</p>
+            </div>
+            <div class="reward-box">
+              <h3>5-Min Payouts</h3>
+              <p>Rewards hit every 5 minutes.</p>
+            </div>
+            <p>Next SOL Drop: <span id="countdown">...</span></p>
+          </div>
+          <div class="rewards-image">
+            <img
+              src="assets/images/about.png"
+              alt="Nostalgic Reward"
+              class="reward-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why $NOST Section -->
+    <section id="why-nost" class="why-nost">
+      <div class="container">
+        <h2>Why HODL $NOST?</h2>
+        <div class="why-flex">
+          <div class="why-column">
+            <div class="why-box">
+              <h3>Revive the Hype</h3>
+              <p>Tap into the golden era of meme coins.</p>
+            </div>
+            <div class="why-box">
+              <h3>SOL Every 5 Min</h3>
+              <p>Earn rewards faster than ever.</p>
+            </div>
+            <div class="why-box">
+              <h3>Meme Legacy</h3>
+              <p>Celebrate the undying spirit of memes.</p>
+            </div>
+          </div>
+          <div class="why-column">
+            <div class="why-box">
+              <h3>Defy the Dip</h3>
+              <p>Turn bear markets into opportunities.</p>
+            </div>
+            <div class="why-box">
+              <h3>Community Driven</h3>
+              <p>Join a passionate HODL crew.</p>
+            </div>
+            <div class="why-box">
+              <h3>Future Gains</h3>
+              <p>From past peaks to new heights.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reward-feed" class="reward-feed">
+      <div class="container">
+        <h2>Recent $NOST Reward Winners</h2>
+        <p class="subheading">HODLers earning SOL every 5 minutes!</p>
+        <div class="feed-container">
+          <div class="feed-list" id="feed-list">
+            <!-- JavaScript will populate this -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section id="tokenomics" class="tokenomics">
+      <div class="container">
+        <h2>Tokenomics</h2>
+        <div class="tokenomics-grid">
+          <div class="token-box">
+            <h3>Total Supply</h3>
+            <p>1,000,000 $NOST</p>
+          </div>
+          <div class="token-box">
+            <h3>Transaction Tax</h3>
+            <p>5% per Trade</p>
+          </div>
+          <div class="token-box">
+            <h3>Reward Distribution</h3>
+            <p>100% to Holders</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="community">
+      <div class="container">
+        <h2>Join the Nostalgia Crew</h2>
+        <p>
+          Link up with HODLers and meme coin fans who remember the rush and
+          believe in the comeback. Let’s bring back the good old days—together.
+        </p>
+        <div class="social-cta">
+          <div class="social-icons">
+            <a href="#" class="social-btn">
+              <img src="assets/icons/twitter.svg" alt="Twitter" />
+            </a>
+            <a href="#" class="social-btn ">
+              <img src="assets/icons/telegram.svg" alt="Telegram" />
+            </a>
+            <a href="#" class="social-btn"> 
+              <img src="assets/icons/dex.png" alt="Dexscreener"/> 
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>© 2025 $NOST - Keeping the Meme Coin Dream Alive</p>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+  </body>
+</html>
