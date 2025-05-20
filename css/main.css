@@ -85,7 +85,7 @@ body .shooting-star-4 {
   font-family: "Changa One", cursive;
   font-size: 2rem;
   color: #ffd700;
-  text-shadow: 0 0 5px #ffd700;
+  text-shadow: 0 0 2px #ffd700;
 }
 
 .nav-menu ul {
@@ -258,7 +258,7 @@ h1 {
   font-family: "Changa One", cursive;
   font-size: 4.5rem;
   color: #ffd700;
-  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.3), 0 0 15px #ffd700;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.3) #ffd700;
   transform: perspective(500px) translateZ(20px);
 }
 
@@ -304,7 +304,7 @@ h2 {
   font-family: "Changa One", cursive;
   font-size: 2.5rem;
   color: #ffd700;
-  text-shadow: 0 0 2px #ffd700;
+
   margin-bottom: 50px;
 }
 
@@ -339,6 +339,7 @@ img:hover {
 .about-content p {
   font-size: 1.2rem;
   max-width: 800px;
+  line-height: 1.6;
 }
 
 .about-footer {
@@ -434,12 +435,14 @@ img:hover {
   display: flex;
   flex-direction: column;
   gap: 25px;
+  width: 100%;
 }
 
 .reward-box {
   background: #2e2e2e;
   padding: 25px;
   border-radius: 10px;
+  width: 100%;
 }
 
 .rewards-cards p {
@@ -980,6 +983,11 @@ footer {
 
   .mobile-menu a {
     font-size: 1rem;
+  }
+
+  .hero {
+    min-height: 0;
+    margin-top: 100px;
   }
 
   .hero-img .chart {
